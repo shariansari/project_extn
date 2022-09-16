@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sum of several arrays</title>
+</head>
+<body>
+    <script>
+    let arr = [[1, 2], [3, 4], [5, 6]].reduce((acc, curVal) => acc.concat(curVal), []);
+
+
+let sum = arr.reduce((acc,curVal)=>acc+curVal,0)
+document.write("sum of array of array is "+"="+sum +"<br>")
+
+ 
+
+
+
+   
+let a1=[2,2,3,1,2,3,4.5,6]
+for(i=0;i<a1.length;i++) {
+    luckeys_sevens();
+  
+}
+function  luckeys_sevens(){
+    if(a1[i]+a1[i+1]+a1[i+2]==7){
+        document.write(true) 
+    
+    }
+}
+
+
+
+    </script>
+    
+</body>
+</html>
